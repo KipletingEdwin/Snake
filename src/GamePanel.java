@@ -15,6 +15,7 @@ public class GamePanel extends JPanel implements ActionListener {
     final int y[] = new int [GAME_UNITS];
     int bodyParts = 6;
     int applesEaten;
+    int appleX;
 
 
     GamePanel(){
