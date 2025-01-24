@@ -6,6 +6,7 @@ import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
 
 public class GamePanel extends JPanel implements ActionListener {
+    static  final  int SCREEN_WIDTH = 600;
 
     GamePanel(){
 
