@@ -25,6 +25,10 @@ public class GamePanel extends JPanel implements ActionListener {
 
     }
 
+    public  void  checkApple(){
+
+    }
+
     @Override
     public void actionPerformed(ActionEvent e) {
 
