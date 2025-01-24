@@ -17,6 +17,14 @@ public class GamePanel extends JPanel implements ActionListener {
 
     }
 
+    public  void draw(Graphics g){
+
+    }
+
+    public void move(){
+
+    }
+
     @Override
     public void actionPerformed(ActionEvent e) {
 
