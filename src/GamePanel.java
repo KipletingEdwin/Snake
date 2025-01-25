@@ -24,6 +24,7 @@ public class GamePanel extends JPanel implements ActionListener {
 
 
     GamePanel(){
+        random = new Random();
 
     }
 
