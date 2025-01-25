@@ -42,6 +42,8 @@ public class GamePanel extends JPanel implements ActionListener {
     }
 
     public void  paintComponent(Graphics g){
+        super.paintComponent(g);
+        draw(g);
 
     }
 
