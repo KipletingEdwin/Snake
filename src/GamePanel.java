@@ -116,8 +116,8 @@ public class GamePanel extends JPanel implements ActionListener {
             move();
             checkApple();
             checkCollisions();
-
         }
+        repaint();
 
     }
 
