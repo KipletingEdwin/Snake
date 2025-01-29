@@ -105,7 +105,7 @@ public class GamePanel extends JPanel implements ActionListener {
     public  void  checkCollisions(){
         //checks if head collides with body
         for(int i = bodyParts;i>0;i--){
-            if((x[0] == x[1]&& (y[0] == y[1])){
+            if((x[0] == x[1]&& (y[0] == y[1]))){
                 running = false;
             }
         }
@@ -147,8 +147,15 @@ public class GamePanel extends JPanel implements ActionListener {
 
     public  class MyKeyAdapter extends KeyAdapter {
         @Override
-
         public  void keyPressed(KeyEvent e){
+            switch (e.getKeyCode()){
+                case KeyEvent.VK_LEFT:
+                    if(direction != 'R'){
+                        direction = 'L';
+                    }
+                    break;
+            }
+        }
 
         }
 
