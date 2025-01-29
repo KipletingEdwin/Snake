@@ -150,6 +150,8 @@ public class GamePanel extends JPanel implements ActionListener {
 
 
     public  void  gameOver(Graphics g){
+            //Game Over text
+            g.setColor(Color.red);
 
     }
 
