@@ -116,9 +116,11 @@ public class GamePanel extends JPanel implements ActionListener {
         //check if head touches right border
         if(x[0] > 0){
             running = false;
-
-
     }
+        //check if head touches top border
+        if(y[0] < 0){
+            running = false;
+        }
 
     public  void  gameOver(Graphics g){
 
